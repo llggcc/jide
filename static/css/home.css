@@ -1,0 +1,418 @@
+header {
+  height: 132px;
+  background-color: #fff;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+header ._sear {
+  float: left;
+  width: 800px;
+  height: 82px;
+  background-color: #e1e1e1;
+  border-radius: 40px;
+  margin-left: 70px;
+}
+header ._sear i {
+  float: left;
+  margin-left: 20px;
+  width: 58px;
+  height: 82px;
+  line-height: 82px;
+  font-size: 58px !important;
+  color: #000;
+  font-weight: bold;
+}
+header ._sear input {
+  width: 640px;
+  line-height: 82px;
+  float: left;
+  margin-left: 40px;
+  font-size: 40px;
+  color: #999;
+  border: 0;
+  outline: none;
+  background-color: #e1e1e1;
+}
+header ._searGo {
+  float: left;
+  width: 150px;
+  height: 82px;
+  text-align: center;
+  line-height: 82px;
+  background-color: #e1e1e1;
+  border-radius: 40px;
+  font-size: 40px;
+}
+.main {
+  position: fixed;
+  top: 132px;
+  bottom: 145px;
+  overflow: hidden;
+  /* 使之可以滚动 */
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.main img {
+  background: url(../img/loading.gif) 50% no-repeat;
+}
+.main .content {
+  background-color: #f4f4f4;
+}
+.main .content .swiper-container {
+  width: 1080px;
+  height: 400px;
+  overflow: hidden;
+}
+.main .content .swiper-container img {
+  width: 1080px;
+  height: 400px;
+}
+.main .content .swiper-container .swiper-pagination-bullet {
+  width: 30px;
+  height: 30px;
+  background-color: #666;
+}
+.main .content .swiper-container .swiper-pagination-bullet-active {
+  background-color: #e77070;
+}
+.main .content .goodsKinds {
+  padding: 30px 30px 0;
+  width: 1020px;
+  height: 530px;
+  background-color: #fff;
+}
+.main .content .goodsKinds dl {
+  float: left;
+  width: 232px;
+  height: 232px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.main .content .goodsKinds dl img {
+  width: 232px;
+  height: 232px;
+}
+.main .content .goodsKinds dl dd {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 232px;
+  font-size: 40px;
+  line-height: 66px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.65);
+  text-align: center;
+  color: #333;
+}
+.main .content .goodsKinds .clear-right {
+  margin-right: 0;
+}
+.main .content .tip {
+  width: 1020px;
+  padding: 0 30px;
+  height: 114px;
+  border-top: 1px solid #e1e1e1;
+}
+.main .content .tip p {
+  float: left;
+  width: 270px;
+  text-align: center;
+  line-height: 114px;
+  font-size: 44px;
+  position: relative;
+}
+.main .content .tip p:after {
+  width: 8px;
+  height: 60px;
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 30px;
+  background-color: #e77070;
+}
+.main .content .tip a {
+  width: 183px;
+  float: right;
+  color: #999;
+  line-height: 114px;
+  font-size: 38px;
+  text-decoration: none;
+  background: url("../img/right_jian.png") right center no-repeat;
+}
+.main .content .mingren .single_mingjia {
+  background-color: #fff;
+  width: 1020px;
+  height: 256px;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+}
+.main .content .mingren .single_mingjia .single-left {
+  float: left;
+  margin-right: 40px;
+}
+.main .content .mingren .single_mingjia .single-left img {
+  width: 256px;
+  height: 256px;
+}
+.main .content .mingren .single_mingjia .single-right {
+  float: left;
+  width: 722px;
+}
+.main .content .mingren .single_mingjia .single-right dt {
+  font-size: 44px;
+  line-height: 44px;
+  margin-bottom: 20px;
+  color: #000;
+  text-align: left;
+}
+.main .content .mingren .single_mingjia .single-right dd {
+  overflow: hidden;
+  color: #999;
+}
+.main .content .mingren .single_mingjia .single-right dd p,
+.main .content .mingren .single_mingjia .single-right dd span {
+  float: left;
+  line-height: 48px;
+  font-size: 38px;
+}
+.main .content .mingren .single_mingjia .single-right dd span {
+  width: 602px;
+}
+.main .content .mingren .single_mingjia .single-right dd:first-of-type {
+  height: 48px;
+}
+.main .content .mingren .single_mingjia .single-right dd:first-of-type span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+.main .content .mingren .single_mingjia .single-right dd:last-of-type {
+  height: 96px;
+  margin-top: 23px;
+}
+.main .content .mingren .single_mingjia .single-right dd:last-of-type span {
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal !important;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  height: 96px;
+}
+.main .content .mingren .single_mingjia:last-of-type {
+  margin-bottom: 0;
+}
+.main .content .tip2 {
+  width: 1020px;
+  padding: 0 30px;
+  height: 114px;
+}
+.main .content .tip2 p {
+  float: left;
+  width: 270px;
+  text-align: center;
+  line-height: 114px;
+  font-size: 44px;
+  position: relative;
+}
+.main .content .tip2 p:after {
+  width: 8px;
+  height: 60px;
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 30px;
+  background-color: #f2a158;
+}
+.main .content .tip2 a {
+  width: 183px;
+  float: right;
+  color: #999;
+  line-height: 114px;
+  font-size: 38px;
+  text-decoration: none;
+  background: url("../img/right_jian.png") right center no-repeat;
+}
+.main .content .shops {
+  padding: 0 30px;
+  width: 1020px;
+}
+.main .content .shops a {
+  text-decoration: none;
+}
+.main .content .shops ul {
+  overflow: hidden;
+}
+.main .content .shops ul li {
+  float: left;
+  width: 495px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+.main .content .shops ul li .advertise1 {
+  width: 495px;
+  height: 265px;
+  margin-bottom: 30px;
+}
+.main .content .shops ul li .advertise2 {
+  width: 495px;
+  height: 265px;
+  margin-top: 30px;
+}
+.main .content .shops ul li dl {
+  padding-bottom: 20px;
+}
+.main .content .shops ul li dl dt img {
+  width: 495px;
+  height: 495px;
+}
+.main .content .shops ul li dl dd:first-of-type {
+  font-size: 38px;
+  line-height: 62px;
+  text-align: center;
+  color: #000;
+}
+.main .content .shops ul li dl dd:nth-of-type(2) {
+  overflow: hidden;
+  color: #999;
+}
+.main .content .shops ul li dl dd:nth-of-type(2) p,
+.main .content .shops ul li dl dd:nth-of-type(2) span {
+  float: left;
+  font-size: 38px;
+  line-height: 52px;
+}
+.main .content .shops ul li dl dd:nth-of-type(2) span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.main .content .shops ul li dl dd:nth-of-type(3) {
+  overflow: hidden;
+  color: #999;
+}
+.main .content .shops ul li dl dd:nth-of-type(3) p,
+.main .content .shops ul li dl dd:nth-of-type(3) span {
+  float: left;
+  font-size: 38px;
+  line-height: 52px;
+}
+.main .content .shops ul li dl dd:nth-of-type(3) span {
+  width: 130px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.main .content .shops ul li:nth-of-type(2n) {
+  margin-right: 0;
+}
+.main .content .tip3 {
+  width: 1020px;
+  padding: 0 30px;
+  height: 114px;
+}
+.main .content .tip3 p {
+  float: left;
+  width: 270px;
+  text-align: center;
+  line-height: 114px;
+  font-size: 44px;
+  position: relative;
+}
+.main .content .tip3 p:after {
+  width: 8px;
+  height: 60px;
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 30px;
+  background-color: #73d2f9;
+}
+.main .content .tip3 a {
+  width: 183px;
+  float: right;
+  color: #999;
+  line-height: 114px;
+  font-size: 38px;
+  text-decoration: none;
+  background: url("../img/right_jian.png") right center no-repeat;
+}
+.main .content .hotgoods {
+  width: 1020px;
+  padding: 0 30px;
+  overflow: hidden;
+}
+.main .content .hotgoods a {
+  text-decoration: none;
+}
+.main .content .hotgoods dl {
+  background-color: #fff;
+  box-sizing: content-box;
+  width: 495px;
+  height: 659px;
+  padding-bottom: 20px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.main .content .hotgoods dl dt {
+  margin-bottom: 14px;
+}
+.main .content .hotgoods dl dt img {
+  width: 495px;
+  height: 495px;
+}
+.main .content .hotgoods dl dd:first-of-type {
+  line-height: 46px;
+  font-size: 36px;
+  height: 92px;
+  color: #999;
+  padding: 0 18px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal !important;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.main .content .hotgoods dl dd:last-of-type {
+  padding: 0 18px;
+  line-height: 34px;
+  font-size: 36px;
+  color: #f37676;
+  position: relative;
+}
+.main .content .hotgoods dl dd:last-of-type h4 {
+  width: 46px;
+  height: 46px;
+  background: url(../img/famousor.png) no-repeat;
+  position: absolute;
+  right: 10px;
+  top: -10px;
+}
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ellipsis-2 {
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal !important;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+/*# sourceMappingURL=index.css.map */

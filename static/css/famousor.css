@@ -1,0 +1,114 @@
+
+.conten {
+  position:fixed;
+  left:0;
+  top:0;
+  bottom:145px;
+  right:0;
+}
+.conten .lists {
+  overflow: hidden;
+}
+.conten .lists li {
+  width: 100%;
+  float: left;
+  padding: 35px 30px;
+  margin-top: 30px;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+}
+.conten .lists li > div {
+  float: left;
+}
+.conten .lists li i {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  font-size: 42px;
+  color: #999;
+}
+.conten .lists li ._left {
+  margin-right: 40px;
+  float:left;
+}
+.conten .lists li ._left img {
+  width: 220px;
+  height: 220px;
+}
+.conten .lists li ._right {
+  width: 730px;
+  float:left;
+}
+.conten .lists li ._right dt {
+  font-size: 46px;
+  line-height: 46px;
+  margin-bottom: 22px;
+}
+.conten .lists li ._right dd {
+  overflow: hidden;
+  font-size: 38px;
+  color: #999;
+}
+.conten .lists li ._right dd span {
+  float: left;
+  line-height: 46px;
+}
+.conten .lists li ._right dd p {
+  width: 530px;
+  float: left;
+  line-height: 46px;
+}
+.conten .lists li ._right dd:first-of-type {
+  margin-bottom: 20px;
+}
+.conten .lists li ._right dd:first-of-type p {
+  height: 92px;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal !important;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.conten .lists li ._right dd:last-of-type p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.opacity {
+  -webkit-animation: opacity 0.3s linear;
+  animation: opacity 0.3s linear;
+}
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ellipsis-2 {
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal !important;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+/*# sourceMappingURL=mingjialist.css.map */

@@ -1,0 +1,112 @@
+.personal_main{
+    position: fixed;
+    top: 0;
+    bottom: 145px;
+    background-color: #f4f4f4;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.personal_name{
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 1080px;
+    height: 565px;
+    background: url("../img/personal_bgc.jpg") no-repeat;
+}
+.personal_img{
+    width: 208px;
+    height: 208px;
+    border-radius: 50%;
+    border: 6px solid rgba(255,255,255,0.5);
+    margin-top: 77px;
+    
+}
+.personal_nickname{
+    width: 1080px;
+    height: 90px;
+    line-height: 90px;
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+}
+.edit_data{
+    display: block;
+    width: 195px;
+    height: 64px;
+    border-radius: 32px;
+    background-color: rgba(255, 255, 255, 0.7);
+    line-height: 64px;
+    text-align: center;
+    color: #333;
+    font-size: 36px;
+    margin: 0 auto;
+}
+.personal_txt{
+    width: 1080px;
+    height: 93px;
+    line-height: 93px;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+}
+.personal_ability{
+    width: 1080px;
+    height: 192px;
+    background-color: #fff;
+    overflow: hidden;
+    border-bottom: 1px solid #e1e1e1;
+}
+.personal_ability a{
+    display: block;
+    width: 270px;
+    height: 192px;
+    text-align: center;
+    float: left;
+}
+.personal_ability i{
+    display: block;
+    color: #e65a4f;
+    font-size: 68px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.personal_ability p{
+    font-size: 40px;
+    color: #999;
+}
+.personal_plate{
+    width: 1080px;
+    height: 261px;
+    background-color: #fff;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    margin-top: 30px;
+}
+.personal_plate a{
+    display: block;
+    height: 130px;
+    width: 1020px;
+    margin: 0 auto;
+    line-height: 130px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.personal_plate a:last-child{
+    border-bottom: 0;
+}
+.personal_plate a p{
+    font-size: 48px;
+    color: #333;
+    float: left;
+    width: 510px;
+    height: 130px;
+    text-align: left;
+}
+.personal_plate a i{
+    font-size: 30px;
+    color: #999;
+    float: left;
+    width: 510px;
+    height: 130px;
+    text-align: right;
+}
